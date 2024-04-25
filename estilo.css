@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #ffff;
+    text-align: center;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9dbcbc; /* muda a cor das letras em cima*/
+    padding: 1px 55px; /* o segundo "px" muda o espaçamento dos titulos no header*/
+}
+
+nav a:hover {
+    color:#703017; /* muda a cor da letra*/
+    text-decoration-color: #704917; /* muda sublinhado das opções em cima*/
+    background-color: #f0dbaf; /* muda a cor do fundo*/
+}
+
+section {
+    padding: px;
+}
+
+h1, h2 {
+    color: #9dbcbc; /* cor do titulo principal do site*/
+}
+
+h1 {
+    background-color: #704917; /* Define a cor de fundo para o cabeçalho */
+    color: #9dbcbc; /* cor do titulo principal do site*/
+     /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+    padding: 40px; /* Adiciona espaço interno ao redor do cabeçalho */
+    font-size: 50px; /* Define o tamanho da fonte para o cabeçalho */
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #704917; /*cor da letra dos botoes*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Define a fonte padrão para o corpo do documento */
+body {
+    font-family: "sans-serif";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0af; /* Define a cor de fundo para o corpo do documento */
+}
+
+
+/* Estilo para o cabeçalho (museus, parques e teatros) */
+header {
+    background-color: #704917; /* Define a cor de fundo para o cabeçalho */
+    color: white; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+    padding: 1px; /* Adiciona espaço interno ao redor do cabeçalho */
+    font-size: 25px; /* Define o tamanho da fonte para o cabeçalho */
+}
+
+/* Estilo para os títulos de segundo nível (h2) */
+h2 {
+    color: #704917; /* Define a cor do texto dos títulos h2 */
+    font-size: 40px; /* Define o tamanho da fonte para os títulos h2 */
+    margin-bottom: 10px; /* Adiciona espaço inferior entre os títulos h2 e os parágrafos */
+    text-align: center; /* Centraliza o texto dos títulos h2 */
+    border: 4px solid #704917; /* Adiciona uma borda rosa ao redor dos títulos h2 */
+    padding: 10px; /* Adiciona espaço interno dentro da borda dos títulos h2 */
+    max-width: 600px; /* Limita a largura máxima dos títulos h2 */
+    margin-left: auto; /* Centraliza os títulos h2 na página */
+    margin-right: auto; /* Centraliza os títulos h2 na página */
+    border-radius: 15px; /* Adiciona bordas arredondadas aos títulos h2 */
+}
+
+/* Estilo para os parágrafos */
+p {
+    line-height: 1.6; /* Define a altura da linha para os parágrafos */
+    font-size: 20px; /* Define o tamanho da fonte para os parágrafos */
+    color: #332717; /* Define a cor do texto dos parágrafos */
+    text-align: center; /* Centraliza o texto dos parágrafos */
+}
+
+/* Estilo para as listas não ordenadas */
+ul {
+    list-style-type: none; /* Remove os marcadores padrão das listas não ordenadas */
+    padding-left: 20px; /* Adiciona um recuo à esquerda para as listas não ordenadas */
+    text-align: center; /* Centraliza o texto dentro das listas não ordenadas */
+}
