@@ -1,44 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 footer{
     background-color: #ffff;
     text-align: center;
 }
-header {
-    background-color: #f0f0f0;
-    padding: 30px;
-    text-align: center;
-}
 
-nav {
-    margin-top: 10px;
-}
 
-nav a {
-    text-decoration: none;
-    color: #9dbcbc; /* muda a cor das letras em cima*/
-    padding: 1px 55px; /* o segundo "px" muda o espaçamento dos titulos no header*/
-}
-
-nav a:hover {
-    color:#703017; /* muda a cor da letra*/
-    text-decoration-color: #704917; /* muda sublinhado das opções em cima*/
-    background-color: #f0dbaf; /* muda a cor do fundo*/
-}
-
-section {
-    padding: px;
-}
 
 h1, h2 {
     color: #9dbcbc; /* cor do titulo principal do site*/
 }
 
 h1 {
+    margin: 0;
     background-color: #704917; /* Define a cor de fundo para o cabeçalho */
     color: #9dbcbc; /* cor do titulo principal do site*/
      /* Define a cor do texto do cabeçalho */
@@ -47,22 +19,24 @@ h1 {
     font-size: 50px; /* Define o tamanho da fonte para o cabeçalho */
 }
 
-ul {
-    list-style-type: none;
-    padding: 10px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
 
 a {
-    color: #704917; /*cor da letra dos botoes*/
+    display: inline-block; /* Torna os links elementos de bloco */
+    padding: 10px; /* Adiciona espaço interno aos links */
+    border: 2px solid #704917; /* Adiciona borda aos links */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    margin-bottom: 10px; /* Adiciona espaço abaixo dos links */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #704917; /* Define a cor do texto dos links */
+    transition: all 0.4s ease; /* Adiciona transição suave */
 }
 
+/* Estiliza os links ao passar o mouse */
 a:hover {
-    text-decoration: underline;
+    background-color: #704917; 
+    color: white; 
 }
+
 
 /* Define a fonte padrão para o corpo do documento */
 body {
@@ -74,13 +48,7 @@ body {
 
 
 /* Estilo para o cabeçalho (museus, parques e teatros) */
-header {
-    background-color: #704917; /* Define a cor de fundo para o cabeçalho */
-    color: white; /* Define a cor do texto do cabeçalho */
-    text-align: center; /* Centraliza o texto dentro do cabeçalho */
-    padding: 1px; /* Adiciona espaço interno ao redor do cabeçalho */
-    font-size: 25px; /* Define o tamanho da fonte para o cabeçalho */
-}
+
 
 /* Estilo para os títulos de segundo nível (h2) */
 h2 {
@@ -105,8 +73,26 @@ p {
 }
 
 /* Estilo para as listas não ordenadas */
-ul {
-    list-style-type: none; /* Remove os marcadores padrão das listas não ordenadas */
-    padding-left: 20px; /* Adiciona um recuo à esquerda para as listas não ordenadas */
-    text-align: center; /* Centraliza o texto dentro das listas não ordenadas */
+
+
+.card{
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+img{
+    border-radius: 20px;
+}
+.left-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.right-size{
+    display: flex;
+    align-items: center;
 }

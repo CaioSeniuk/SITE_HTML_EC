@@ -5,113 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lugares para Crianças em Curitiba</title>
     <link rel="stylesheet" href="estilo.css">
-    <style>
-        /* Estiliza os links */
-        a {
-            display: inline-block; /* Torna os links elementos de bloco */
-            padding: 10px; /* Adiciona espaço interno aos links */
-            border: 2px solid #704917; /* Adiciona borda aos links */
-            border-radius: 5px; /* Adiciona bordas arredondadas */
-            margin-bottom: 10px; /* Adiciona espaço abaixo dos links */
-            text-decoration: none; /* Remove sublinhado padrão dos links */
-            color: #704917; /* Define a cor do texto dos links */
-            transition: all 0.4s ease; /* Adiciona transição suave */
-        }
-
-        /* Estiliza os links ao passar o mouse */
-        a:hover {
-            background-color: #704917; /* Altera a cor de fundo dos links */
-            color: white; /* Altera a cor do texto dos links */
-        }
-        header {
-            position: fixed; /* Fixa o cabeçalho no topo */
-            top: 0; /* Alinha o cabeçalho no topo */
-            width: 100%; /* Define a largura total */
-            background-color: #704917; /* Cor de fundo */
-            padding: 1px; /* Espaçamento interno */
-            z-index: 1000; /* Z-index alto para sobrepor outros elementos */
-            transition: top 0.3s; /* Adiciona uma transição suave ao scroll */
-        }
-         /* Estiliza o conteúdo para evitar que seja ocultado pelo cabeçalho */
-         
-         body {
-            padding-top: 20px; /* Altura do cabeçalho */
-        }
-        /* Adiciona margem ao topo dos elementos ancorados para compensar o cabeçalho fixo */
-        h2 {
-            scroll-margin-top: 1px; /* Altura do cabeçalho + algum espaço extra */
-        }
-         /* Adiciona margem ao topo dos elementos ancorados para compensar o cabeçalho fixo */
-         h2 {
-            scroll-margin-top: 10px; /* Altura do cabeçalho + algum espaço extra */
-        }
-        
-        
-    </style>
-
 </head>
 <body>
-<header>
-    
-    <nav>
-        <a href="#museus">Museus</a>
-        <a href="#parques">Parques</a>
-        <a href="#teatros">Teatros</a>
-    </nav>
-</header>
+
+
 <h1>Lugares para Crianças em Curitiba</h1>
 
-
 <section id="museus">
+    
     <h2>Museus</h2>
     <p>Alguns museus em Curitiba que oferecem atividades para crianças são:</p>
-    <ul>
-        <img src="https://www.pastoraldacrianca.org.br/museudavida/images/noticias/2021/image2.png" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.pastoraldacrianca.org.br/museudavida/sobre/valores-para-acesso-ao-museu-da-vida" target="_blank">Museu da Vida</a></li>
-        <div style="margin: 40px;"></div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Museu_Paranaense_1_Curitiba_Brasil.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.museuparanaense.pr.gov.br" target="_blank">Museu Paranaense</a></li>
-        <div style="margin: 40px;"></div>
-        <img src="https://lirp.cdn-website.com/4a2f40c4/dms3rep/multi/opt/MON-reabre-1920w.jpg" widht="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2022-12/credito_roberto_dziura_-_aen.jpg width=" target="_blank">Museu Oscar Niemayer (MON)</a></li>
-        <div style="margin: 40px;">
-    </ul>
+    <div>
+        <div class="card">
+            <div class="left-size">
+                <img src="https://www.pastoraldacrianca.org.br/museudavida/images/noticias/2021/image2.png" width="540px" height="326px">
+                
+                <a href="https://www.pastoraldacrianca.org.br/museudavida/sobre/valores-para-acesso-ao-museu-da-vida" target="_blank">Museu da Vida</a>
+                
+            </div>
+            <div class="right-size">
+                <p>O Museu da Vida abriu suas portas em dezembro de 2014 e se tornou uma opção de lazer e conhecimento em Curitiba. Com seis exposições internas e duas áreas de lazer ao ar livre, o Museu é uma iniciativa da Pastoral da Criança e foi criado para ser um espaço cultural, interativo, de encontros e de produção de saberes.</p>
+            </div>
+        </div>
+        
+        <div  class="card">
+            
+            <div class="right-size">
+                <p>Fundado em 25 de setembro de 1876, o Museu Paranaense (MUPA) é considerado o terceiro museu mais antigo do Brasil. Ao longo de sua história, a instituição passou por diversas transformações físicas e conceituais, que abarcam as transferências da sede, e mudanças na sua missão e relação com a sociedade. Atualmente, o Museu Paranaense passa tanto por um processo de resgate de sua própria história quanto busca se fortalecer enquanto instituição museológica, abrindo caminho para novas narrativas expositivas e perspectivas metodológicas de pesquisa, além da reformulação de sua identidade e comunicação institucional.</p>
+            </div>
+            <div class="left-size">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Museu_Paranaense_1_Curitiba_Brasil.jpg" width="540px" height="326px">
+                
+                <a href="https://www.museuparanaense.pr.gov.br" target="_blank">Museu Paranaense</a>
+            </div>
+        </div>
+       
+        <div class="card">
+            <div class="left-size">
+                <img src="https://lirp.cdn-website.com/4a2f40c4/dms3rep/multi/opt/MON-reabre-1920w.jpg" widht="540px" height="326px">
+                <a href="https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2022-12/credito_roberto_dziura_-_aen.jpg width=" target="_blank">Museu Oscar Niemayer (MON)</a>
+            </div>
+            <div class="right-size">
+                <p>O Museu Oscar Niemeyer (MON) foi inaugurado em Curitiba no ano de 2002, mas foi idealizado pelo arquiteto Oscar Niemeyer muito antes, em 1967. Entre as principais curiosidades sobre o espaço está o fato de que ele foi feito em partes. Primeiro, em 1978, ocorreu a inauguração do que hoje é o prédio principal.</p>
+            </div>
+        </div>
+        
+    </div>
 </section>
 
 <section id="parques">
     <h2>Parques</h2>
     <p>Curitiba possui diversos parques ideais para crianças, incluindo:</p>
-    <ul>
-        <img src="https://mid.curitiba.pr.gov.br/2021/00316810.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.fuiserviajante.com/parana/bosque-alemao-curitiba/" target="_blank">Bosque do Alemão</a></li>
-        <div style="margin: 40px;"></div>
-        <img src="https://mid.curitiba.pr.gov.br/2021/00322931.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.curitiba.pr.gov.br/conteudo/parque-barigui-de-curitiba/292" target="_blank">Parque Barigui</a></li>
-        <div style="margin: 40px;"></div>
-        <img src="https://mid.curitiba.pr.gov.br/2021/00326231.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://turismo.curitiba.pr.gov.br/conteudo/bosque-do-papa/1104" target="_blank">Bosque do Papa</a></li>
-        <div style="margin: 40px;">
-    </ul>
+    <div>
+        <div class="card">
+            <div class="left-size">
+                <img src="https://mid.curitiba.pr.gov.br/2021/00316810.jpg" width="540px">
+                
+                <a href="https://www.fuiserviajante.com/parana/bosque-alemao-curitiba/" target="_blank">Bosque do Alemão</a>
+            </div>
+            <div class="right-size">
+                <p>Inaugurado em 1996, o Bosque era uma parte da chácara da família Schaffer, que ocupava quase todo o bairro Vista Alegre — popularmente chamado de Jardim Schaffer. Os Schaffer se dedicavam à produção de leite e ao ramo do comércio, pois tinham uma confeitaria na Rua XV de Novembro. Com o tempo, os herdeiros foram loteando o terreno da família, até que restou somente o bosque, que então foi transformado em parque municipal. </p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="right-size">
+                <p>O lugar, uma antiga área de terras (sesmaria) pertencente ao desbravador Mateus Martins Leme, foi transformado em parque, em 1972, pelo então prefeito Jaime Lerner. O nome Barigui tem origem indígena e significa "rio do fruto espinhoso", em alusão às pinhas das araucárias nativas, ainda encontradas por ali.</p>
+            </div>
+            <div class="left-size">
+                <img src="https://mid.curitiba.pr.gov.br/2021/00322931.jpg" width="540px" height="326px">
+                
+                <a href="https://www.curitiba.pr.gov.br/conteudo/parque-barigui-de-curitiba/292" target="_blank">Parque Barigui</a>
+            </div>
+            
+        </div>
+
+        <div class="card">
+            <div class="left-size">
+                <img src="https://mid.curitiba.pr.gov.br/2021/00326231.jpg" width="540px" height="326px">
+                
+                <a href="https://turismo.curitiba.pr.gov.br/conteudo/bosque-do-papa/1104" target="_blank">Bosque do Papa</a>
+            </div>
+            <div class="right-size">
+                <p>O Bosque do Papa João Paulo II é um parque na cidade de Curitiba, no Paraná. Abriga uma reserva com mais de trezentas araucárias na área central da capital paranaense. O bosque foi criado em homenagem ao Papa João Paulo II, e sedia o Memorial da Imigração Polonesa.</p>
+            </div>
+        </div>
+        
+    </div>
 </section>
 
 <section id="teatros">
     <h2>Teatros</h2>
     <p>Para entretenimento infantil, você pode visitar os seguintes teatros:</p>
-    <ul>
-        <img src="https://live.staticflickr.com/6177/6186717059_3f10011ca7_c.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://www.teatroguaira.pr.gov.br/" target="_blank">Teatro Guaíra</a></li>
-        <div style="margin: 40px;"></div>
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGLG45_pLYqZqQ03_HUsxfSN3_N4UwUgLzlLe0SqN4qyj0nG5dn0pzFj0wQBOI87__DaWsfecfg2SZk68HbSu1KvViYSkH3jQubM8Gp0adPX91PAuPQSy4ri8JI60U6xcdeWCz-RTN2t_j/s1600/20160709114649_FAO__DSC0279blog.jpg" width="540px" height="326px">
-        <div style="margin: 8px;"></div>
-        <li><a href="https://teatrolala.com.br/" target="_blank">Teatro Lala Schneider</a></li>
-    </ul>
+    <div>
+        <div class="card">
+            <div class="left-size">
+                <img src="https://live.staticflickr.com/6177/6186717059_3f10011ca7_c.jpg" width="540px" height="326px">
+                
+                <a href="https://www.teatroguaira.pr.gov.br/" target="_blank">Teatro Guaíra</a>
+            </div>
+            <div class="right-size">
+                <p>O Balé Teatro Guaíra foi criado em 1969 pelo Governo do Estado do Paraná. É a terceira companhia de dança mais antiga do Brasil. Em 50 anos de história, foram dançadas mais de 150 coreografias, incluindo grandes sucessos de público e crítica como O Grande Circo Místico, Segundo Sopro e O Lago dos Cisnes.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="right-size">
+                <p>O Teatro Lala Schneider orgulha-se de ser o primeiro teatro independente do Estado do Paraná. Uma bandeira de vanguarda erguida a partir de um sonho, e que hoje é uma realização concreta, levando cultura e entretenimento a um dos públicos mais exigentes do país: VOCÊ!</p>
+            </div>
+            <div class="left-size">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGLG45_pLYqZqQ03_HUsxfSN3_N4UwUgLzlLe0SqN4qyj0nG5dn0pzFj0wQBOI87__DaWsfecfg2SZk68HbSu1KvViYSkH3jQubM8Gp0adPX91PAuPQSy4ri8JI60U6xcdeWCz-RTN2t_j/s1600/20160709114649_FAO__DSC0279blog.jpg" width="540px" height="326px">
+                
+                <a href="https://teatrolala.com.br/" target="_blank">Teatro Lala Schneider</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 <footer>
